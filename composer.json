@@ -1,0 +1,29 @@
+{
+    "name": "teltek/pumukit-example-data-bundle",
+    "type": "symfony-bundle",
+    "description": "Example data bundle for PuMuKIT",
+    "keywords": [
+        "example",
+        "symfony",
+        "bundle",
+        "pumukit",
+        "teltek"
+    ],
+    "homepage": "https://github.com/pumukit/PumukitExampleDataBundle",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Teltek Team",
+            "homepage": "http://teltek.es"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "pumukit/pumukit": ">=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pumukit\\ExampleDataBundle\\": ""
+        }
+    }
+}
